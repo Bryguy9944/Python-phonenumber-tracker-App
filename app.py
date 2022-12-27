@@ -38,7 +38,7 @@ class Location_Tracker:
                         country = tracked.official_name
                     else:
                         country = tracked.name
-        self.country_label.configure(text=country)
+        self.coordinates_label.configure(text=coordinate)
 
 
 
